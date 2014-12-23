@@ -1,3 +1,10 @@
+Tests
+===========
+
+Here you can find coding tasks I was given by Spartez and my solutions there.
+My solutions starts with My* prefix, and jUnit tests starts are My*Test.java.
+Don't look into them if you want to take the challenge by yourself :)
+
 Iteration
 ===========
 
@@ -39,8 +46,8 @@ Find array
 Find sub array starting index in array.
 
 ```
- [1, 4, 5, 7, 9]
- [5,7]
+ array: [1, 4, 5, 7, 9]
+ to find: [5,7]
 ```
 
 Output: 2
@@ -73,3 +80,6 @@ Example:
 Commits: {"G", "F", "E", "D", "B", "A"}
 Parents: {{"F","D"}, {"E"}, {"B"}, {"B"}, {"A"}, null}
 ```
+
+For input commits F and D output should be B.
+You must implement given interface FindCommonAncestor.java
