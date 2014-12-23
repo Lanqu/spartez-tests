@@ -13,11 +13,13 @@ Flatten
 
 Represent tree in flat order from left to right.
 
->     |
->   / | \
->  1  |  2
->   / | \
->  3  4  5
+```
+     |
+   / | \
+  1  |  2
+   / | \
+  3  4  5
+```
 
 Should produce output: 1, 3, 4, 5, 2
 
@@ -36,8 +38,10 @@ Find array
 
 Find sub array starting index in array.
 
-> [1, 4, 5, 7, 9]
-> [5,7]
+```
+ [1, 4, 5, 7, 9]
+ [5,7]
+```
 
 Output: 2
 
@@ -59,9 +63,13 @@ It is possible to implement O(n) solution.
 
 Example:
 
->           E - F
->         /      \
->    A - B - D - G
+```
+           E - F
+         /      \
+    A - B - D - G
+```
 
+```
 Commits: {"G", "F", "E", "D", "B", "A"}
 Parents: {{"F","D"}, {"E"}, {"B"}, {"B"}, {"A"}, null}
+```
